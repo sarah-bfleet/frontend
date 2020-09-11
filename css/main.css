@@ -6,6 +6,11 @@ body {
     font-family: sans-serif;
 }
 
+header {
+    background: url("../images/bg-mobile.svg") no-repeat;
+    background-size: cover;
+}
+
 main {
     max-width: 1200px;
 	width: 90%;
@@ -13,9 +18,8 @@ main {
 }
 
 img {
-    max-width: 100%;
+    width: 80%;
 }
-
 
 p {
     line-height: 2rem;
@@ -26,6 +30,7 @@ p {
 h2 {
     font-size: 1.75rem;
     line-height: 2.5rem;
+    margin-top: 50px;
 }
 
 .logo {
@@ -35,29 +40,9 @@ h2 {
 .logo img {
     padding: 20px 0 50px;
     margin-left: 40px;
+    margin-bottom: 40px;
 }
 
-.hero-bg {
-    position: relative;
-    top: 0;
-    left: 0;
-    
-  }
-
-.hero-bg-1 {
-    position: relative;
-    top: -100px;
-    left: -10px;
-    width: 100%;
-  
-  }
-
-.hero-bg-2 {
-    position: absolute;
-    top: 30px;
-    left: 30px;
-    width: 90%;
-  }
 
 button {
       background: white;
@@ -76,8 +61,7 @@ i {
     width: 10px;
     height: 10px;
     border-radius: 50%;
-    /* text-align: center;
-    vertical-align: middle; */
+    vertical-align: middle; 
     padding: 10px;
     text-align: center;
     margin: 20px 5px;
