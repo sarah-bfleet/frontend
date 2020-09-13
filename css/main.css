@@ -4,6 +4,7 @@ body {
     text-align: center;
     font-size: 16px;
     font-family: sans-serif;
+    margin: 0;
 }
 
 header {
@@ -56,14 +57,23 @@ button {
       font-size: 1rem;
   }
 
-i {
+.social {
+    display: flex;
+    justify-content: center;
+    
+} 
+
+.social p {
     border: 1px  solid white;
-    width: 10px;
-    height: 10px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
-    vertical-align: middle; 
-    padding: 10px;
-    text-align: center;
-    margin: 20px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.middle {
+    margin-left: 10px;
+    margin-right: 10px;
+}
